@@ -45,9 +45,10 @@
   text-align: center;
 }
 
-.benefit-item img {
+.benefit-item svg {
   width: 48px;
   height: 48px;
+  fill: var(--main-text);
 }
 
 .benefit-item h3 {
@@ -104,7 +105,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
   .benefits-title {
     font-size: 20px;
   }
